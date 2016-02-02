@@ -4,6 +4,7 @@ language: node_js
 # Version number
 node_js:
   - 0.12
+  - "0.10.25"
 
 env:
   global:
@@ -33,6 +34,3 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
