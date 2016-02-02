@@ -3,8 +3,8 @@ language: node_js
 
 # Version number
 node_js:
-  - 0.12
-  - 5
+  - "0.12"
+  - "5"
 
 env:
   global:
@@ -32,7 +32,7 @@ build:
     - docker build -t=shippabledocker/shiphitchcock1_sample_node:cache .
     - docker push shippabledocker/shiphitchcock1_sample_node:cache
 
-cache: true
+  cache: true
 
 integrations:
   hub:
