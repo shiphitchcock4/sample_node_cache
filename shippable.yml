@@ -30,9 +30,7 @@ build:
   #post_ci:
    # - docker push shippabledocker/shiphitchcock1_sample_node
 
-integrations:
-  hub:
-    - integrationName: ship-docker
-      type: docker
-      
-cache: true
+#integrations:
+ # hub:
+  #  - integrationName: ship-docker
+   #   type: docker
