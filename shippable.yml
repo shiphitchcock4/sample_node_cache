@@ -32,6 +32,8 @@ build:
     - docker build -t=shippabledocker/shiphitchcock1_sample_node:cache .
     - docker push shippabledocker/shiphitchcock1_sample_node:cache
 
+cache:true
+
 integrations:
   hub:
     - integrationName: ship-docker
